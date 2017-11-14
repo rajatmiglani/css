@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+  height: 130px;
+  width: 100%;
+ background: linear-gradient(46deg, rgba(0,10,10,1) 0%, rgba(0,10,10,1) 30%, rgba(255,141,10,1) 94%, rgba(255,141,10,1) 100%);
+ }
+#logo{
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 120px;
+  width: 100px;
+  background-image: url("images/images.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#page_name{
+	margin-top: 70px;
+	margin-left: 70px;
+	height: 50px;
+	width: 300px;
+	color:#e60000;
+
+	font-style: italic;
+	font-size: 30px;
+
+}
+nav ul{
+  display: flex;
+  height: 100px;
+  width: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+nav ul li{
+  margin-left: 60px;
+  display: inline;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+color: black;
+}
+#major_part{
+  display: flex; /* only to fix margin collapsing, can use overflow : hidden or display : inline-block too */
+  height: 1000px;
+  width : 100%;
+  background-image: url("images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#prop1{
+	margin-top: 50px;
+	margin-left: 50px;
+	color: white;
+	font-size: 30px;
+}
+#second_part{
+	display: flex;
+	height: 150px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 20px;
+}
+#third_part{
+
+	display: flex;
+	height: 400px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#one{
+	width: 33%;
+
+}
+#two{
+	width: 33%;
+
+}
+#three{
+	width: 33%;
+
+}
+#inbt{
+	font-style:normal;
+	font-size: 25px;
+	margin-left: 100px;
+}
+#fourth_part{
+	margin-left: 100px;
+	margin-right: 300px;
+	font-size: 20px;
+}
+#fifth_part{
+	margin-left:50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#sixth_part{
+	display: flex;
+	height: 475px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 40px;
+}
+#four{
+	width: 50%
+}
+#five{
+	width: 50%
+}
+
+#seventh_part{
+	display: flex;
+	height: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 40px;
+}
+#button1{
+	background-color: #cc0000;
+	color: white;
+	font-style: bold;
+	height: 3em;
+	width: 15em;
+	border-color: black;
+	font-style: bold;
+	font-size: 20px;
+}
+#seventh_part.a{
+	color: white;
+	text-decoration: none;
+}
